@@ -15,9 +15,10 @@
     {
         <tr>
             <td>
-                @item.Title |
+                @Html.ActionLink(item.Title + " | Price: $" + item.Price + " | Quantity: " +item.StockCount,"ShowDetails", "Details")
+                <!--@item.Title |
                 Price: $@item.Price |
-                Quantity: @item.StockCount
+                Quantity: @item.StockCount-->
 
                 @using(Html.BeginForm("AddToCart", "Cart")) { 
                     @Html.Hidden("pMediaId", item.Id) 

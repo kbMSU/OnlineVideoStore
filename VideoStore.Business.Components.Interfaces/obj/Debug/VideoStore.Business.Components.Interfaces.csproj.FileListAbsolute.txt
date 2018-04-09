@@ -129,3 +129,17 @@ C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debu
 C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
 C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
 C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll.config
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csproj.CoreCompileInputs.cache
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csproj.CopyComplete
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb

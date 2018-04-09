@@ -61,3 +61,14 @@ C:\VideoStoreS12016TestedLabs\VideoStore.Services.MessageTypes\bin\Debug\Microso
 C:\VideoStoreS12016TestedLabs\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.csprojResolveAssemblyReference.cache
 C:\VideoStoreS12016TestedLabs\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.dll
 C:\VideoStoreS12016TestedLabs\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.pdb
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\bin\Debug\VideoStore.Services.MessageTypes.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\bin\Debug\VideoStore.Services.MessageTypes.pdb
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\bin\Debug\Common.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\bin\Debug\Common.pdb
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.csprojResolveAssemblyReference.cache
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.csproj.CoreCompileInputs.cache
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.csproj.CopyComplete
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.dll
+D:\University\Comp5348\OnlineVideoStore\VideoStore.Services.MessageTypes\obj\Debug\VideoStore.Services.MessageTypes.pdb
