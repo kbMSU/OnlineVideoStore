@@ -1,0 +1,63 @@
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\Common\bin\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\Common\bin\Debug\Common.pdb
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\Common\obj\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\Common\obj\Debug\Common.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\Common\bin\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\Common\bin\Debug\Common.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\Common\obj\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\Common\obj\Debug\Common.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\Common\bin\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\Common\bin\Debug\Common.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\Common\obj\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\Common\obj\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\Common\bin\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\Common\bin\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\Common\obj\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\Common\obj\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\Common\bin\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\Common\bin\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\Common\obj\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\Common\obj\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\Common\bin\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\Common\bin\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\Common\obj\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\Common\obj\Debug\Common.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\Common\bin\Debug\Common.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\Common\bin\Debug\Common.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\Common\obj\Debug\Common.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\Common\obj\Debug\Common.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\Common\bin\Debug\Common.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\Common\bin\Debug\Common.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\Common\obj\Debug\Common.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\Common\obj\Debug\Common.pdb
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\Common\bin\Debug\Common.dll
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\Common\bin\Debug\Common.pdb
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\Common\obj\Debug\Common.dll
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\Common\obj\Debug\Common.pdb
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\Common\bin\Debug\Common.dll
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\Common\bin\Debug\Common.pdb
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\Common\obj\Debug\Common.dll
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\Common\obj\Debug\Common.pdb
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\Common\bin\Debug\Common.dll
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\Common\bin\Debug\Common.pdb
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\Common\obj\Debug\Common.dll
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\Common\obj\Debug\Common.pdb
+U:\VideoStoreS12016TestedLabs\Common\bin\Debug\Common.dll
+U:\VideoStoreS12016TestedLabs\Common\bin\Debug\Common.pdb
+U:\VideoStoreS12016TestedLabs\Common\obj\Debug\Common.dll
+U:\VideoStoreS12016TestedLabs\Common\obj\Debug\Common.pdb
+C:\VideoStoreS12016TestedLabs\Common\bin\Debug\Common.dll
+C:\VideoStoreS12016TestedLabs\Common\bin\Debug\Common.pdb
+C:\VideoStoreS12016TestedLabs\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\VideoStoreS12016TestedLabs\Common\obj\Debug\Common.dll
+C:\VideoStoreS12016TestedLabs\Common\obj\Debug\Common.pdb

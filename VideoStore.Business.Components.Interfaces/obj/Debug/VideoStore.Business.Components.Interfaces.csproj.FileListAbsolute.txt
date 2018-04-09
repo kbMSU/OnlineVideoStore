@@ -1,0 +1,131 @@
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Common.pdb
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Documents and Settings\!msla2391\Desktop\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Common.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week1\VideoStore\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Common.dll
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Documents and Settings\!msla2391\Desktop\comp5348\week3\VideoStore\VideoStore.Business.Components.Interfaces\bin\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\bin\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\bin\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\Matt\Desktop\VideoStoreWithRoles(1)\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\Common.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\bin\Debug\Common.pdb
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\Matt\Desktop\VideoStoreWithRolesS12012(2)\VideoStoreWithRolesS12012\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\MATT_Mac\Desktop\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\msla2391\Desktop\VS_4_5_2013\VideoStoreWithRolesS12015wWebAPI\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\Users\msla2391\Desktop\VideoStoreS12015TestedLabs(4)(1)\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+\\Client\C$\Users\msla2391\Downloads\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+U:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Components.Interfaces.pdb
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.dll
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.dll
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\VideoStore.Business.Entities.pdb
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\bin\Debug\EntityFramework.xml
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.csprojResolveAssemblyReference.cache
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.dll
+C:\VideoStoreS12016TestedLabs\VideoStore.Business.Components.Interfaces\obj\Debug\VideoStore.Business.Components.Interfaces.pdb
