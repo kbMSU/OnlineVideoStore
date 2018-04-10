@@ -15,12 +15,14 @@
     {
         <tr>
             <td>
-                @Html.ActionLink(item.Title + " | Price: $" + item.Price + " | Quantity: " +item.StockCount,"ShowDetails", "Details")
+                @Html.ActionLink(item.Title + " | Price: $" + item.Price + " | Quantity: " +item.StockCount,"ShowDetails", "Details",routeValues: new { mediaId = item.Id }, htmlAttributes: null)
+
                 <!--@item.Title |
                 Price: $@item.Price |
                 Quantity: @item.StockCount-->
 
-                @using(Html.BeginForm("AddToCart", "Cart")) { 
+                @using (Html.BeginForm("AddToCart", "Cart"))
+                {
                     @Html.Hidden("pMediaId", item.Id) 
                     @Html.Hidden("pReturnUrl", ViewContext.HttpContext.Request.Url.PathAndQuery)
                     <input type="submit" value="+ Add to Cart" />
