@@ -12,6 +12,14 @@ Genre: @Model.Item.Genre <br />
 Price: @Model.Item.Price$ <br />
 Amount in Stock: @Model.Item.StockCount <br />
 
-<br />
+<hr />
 
-Reviews Count: @Model.Reviews.Count
+<h3>Customer Reviews</h3>
+
+Reviews Count: @Model.Reviews.Count <br />
+@if (Model.Reviews.Count == 0)
+{
+    <p>There are no reviews yet for this item. Be the first to create one !</p>
+}
+
+@Html.ActionLink("Create Review", "CreateReview", "Review", routeValues: new { mediaId = Model.Item.Id }, htmlAttributes: null)

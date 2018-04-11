@@ -174,6 +174,7 @@
     <Compile Include="Controllers\DetailsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="CustomAuth\CustomRoleStore.cs" />
     <Compile Include="CustomAuth\CustomUserStore.cs" />
@@ -192,6 +193,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ClientModels\Cart.cs" />
     <Compile Include="ViewModels\CatalogueViewModel.cs" />
+    <Compile Include="ViewModels\ReviewViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ReviewService\configuration91.svcinfo" />
@@ -262,6 +264,7 @@
     <Content Include="Views\Manage\ErrorUpdatingUserDetails.cshtml" />
     <Content Include="Views\Cart\InsufficientStock.cshtml" />
     <Content Include="Views\Details\ShowDetails.cshtml" />
+    <Content Include="Views\Review\CreateReview.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
