@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="CatalogueService.cs" />
     <Compile Include="MessageTypeConverter.cs" />
+    <Compile Include="ReviewService.cs" />
     <Compile Include="RoleService.cs" />
     <Compile Include="UserService.cs" />
     <Compile Include="OrderService.cs" />

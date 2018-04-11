@@ -9,6 +9,7 @@
     <EntitySet Name="LoginCredentials" EntityType="VideoStoreEntityModel.Store.LoginCredentials" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Media" EntityType="VideoStoreEntityModel.Store.Media" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="Roles" EntityType="VideoStoreEntityModel.Store.Roles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Reviews" EntityType="VideoStoreEntityModel.Store.Reviews" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="UserRole" EntityType="VideoStoreEntityModel.Store.UserRole" store:Type="Tables" Schema="dbo" />
     <AssociationSet Name="DeliveryOrder" Association="VideoStoreEntityModel.Store.DeliveryOrder">
       <End Role="Delivery" EntitySet="Deliveries" />
@@ -41,6 +42,10 @@
     <AssociationSet Name="MediaStock" Association="VideoStoreEntityModel.Store.MediaStock">
       <End Role="Media" EntitySet="Media" />
       <End Role="Stock" EntitySet="Stocks" />
+    </AssociationSet>
+    <AssociationSet Name="MediaReview" Association="VideoStoreEntityModel.Store.MediaReview">
+      <End Role="Media" EntitySet="Media" />
+      <End Role="Review" EntitySet="Reviews" />
     </AssociationSet>
   </EntityContainer>
   <EntityType Name="Users">
@@ -116,6 +121,19 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reviews">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ReviewDetails" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ReviewerName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Rating" Type="int" Nullable="false" DefaultValue="1" />
+    <Property Name="ReviewLocation" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ReviewDate" Type="datetime" Nullable="false" />
+    <Property Name="MediaId" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="UserRole">
     <Key>
@@ -194,6 +212,18 @@
       </Principal>
       <Dependent Role="Media">
         <PropertyRef Name="Stocks_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MediaReview">
+    <End Role="Media" Type="VideoStoreEntityModel.Store.Media" Multiplicity="1" />
+    <End Role="Review" Type="VideoStoreEntityModel.Store.Reviews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Media">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="MediaId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

@@ -17,11 +17,24 @@ namespace VideoStore.WebClient.ViewModels
             }
         }
 
+        private IReviewService ReviewService
+        {
+            get
+            {
+                return ServiceFactory.Instance.ReviewService;
+            }
+        }
+
         public MediaDetailsViewModel(int mediaId)
         {
             Item = CatalogueService.GetMediaById(mediaId);
+            Reviews = ReviewService.GetReviewsForMediaId(mediaId);
         }
 
         public Media Item;
+
+        public float AverageRating;
+
+        public List<Review> Reviews;
     }
 }

@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICatalogueProvider.cs" />
+    <Compile Include="IReviewProvider.cs" />
     <Compile Include="IRoleProvider.cs" />
     <Compile Include="IUserProvider.cs" />
     <Compile Include="IOrderProvider.cs" />

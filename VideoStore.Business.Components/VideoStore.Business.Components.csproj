@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CatalogueProvider.cs" />
+    <Compile Include="ReviewProvider.cs" />
     <Compile Include="RoleProvider.cs" />
     <Compile Include="UserProvider.cs" />
     <Compile Include="OrderProvider.cs" />

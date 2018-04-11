@@ -394,7 +394,6 @@ C:\VideoStoreS12016TestedLabs\VideoStore.Process\bin\Debug\AutoMapper.xml
 C:\VideoStoreS12016TestedLabs\VideoStore.Process\obj\x86\Debug\VideoStore.Process.csprojResolveAssemblyReference.cache
 C:\VideoStoreS12016TestedLabs\VideoStore.Process\obj\x86\Debug\VideoStore.Process.exe
 C:\VideoStoreS12016TestedLabs\VideoStore.Process\obj\x86\Debug\VideoStore.Process.pdb
-D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\bin\Debug\AutoMapper.Net4.dll
 D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\bin\Debug\VideoStore.Process.exe.config
 D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\bin\Debug\VideoStore.Process.exe
 D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\bin\Debug\VideoStore.Process.pdb

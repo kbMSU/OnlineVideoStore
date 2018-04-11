@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\MATT_Mac\Desktop\VideoStoreS12015TestedLabs(1)\VideoStore.Entities\VideoStore.Business.Entities\VideoStoreEntityModel.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\University\Comp5348\OnlineVideoStore\VideoStore.Entities\VideoStore.Business.Entities\VideoStoreEntityModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

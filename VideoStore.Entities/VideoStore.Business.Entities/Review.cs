@@ -12,20 +12,22 @@ namespace VideoStore.Business.Entities
     using System;
     using System.Collections.Generic;
     
-    public partial class Media
+    public partial class Review
     {
-        public Media()
+        public Review()
         {
-            this.Reviews = new HashSet<Review>();
+            this.Rating = 1;
         }
     
         public int Id { get; set; }
         public string Title { get; set; }
-        public string Director { get; set; }
-        public string Genre { get; set; }
-        public decimal Price { get; set; }
+        public string ReviewDetails { get; set; }
+        public string ReviewerName { get; set; }
+        public int Rating { get; set; }
+        public string ReviewLocation { get; set; }
+        public System.DateTime ReviewDate { get; set; }
+        public int MediaId { get; set; }
     
-        public virtual Stock Stocks { get; set; }
-        public virtual ICollection<Review> Reviews { get; set; }
+        public virtual Media Media { get; set; }
     }
 }

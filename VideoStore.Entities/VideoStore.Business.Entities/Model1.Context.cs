@@ -33,5 +33,6 @@ namespace VideoStore.Business.Entities
         public virtual DbSet<LoginCredential> LoginCredentials { get; set; }
         public virtual DbSet<Media> Media { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<Review> Reviews { get; set; }
     }
 }

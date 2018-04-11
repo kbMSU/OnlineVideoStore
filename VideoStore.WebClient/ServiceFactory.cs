@@ -55,6 +55,13 @@ namespace VideoStore.WebClient
             }
         }
 
+        public IReviewService ReviewService
+        {
+            get
+            {
+                return GetTcpService<IReviewService>("net.tcp://localhost:9010/ReviewService");
+            }
+        }
 
         private T GetTcpService<T>(String pAddress)
         {

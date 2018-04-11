@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 02/24/2015 20:42:41
--- Generated from EDMX file: C:\Users\MATT_Mac\Desktop\VideoStoreS12015TestedLabs(1)\VideoStore.Entities\VideoStore.Business.Entities\VideoStoreEntityModel.edmx
+-- Date Created: 04/10/2018 22:46:26
+-- Generated from EDMX file: D:\University\Comp5348\OnlineVideoStore\VideoStore.Entities\VideoStore.Business.Entities\VideoStoreEntityModel.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -152,6 +152,19 @@ CREATE TABLE [dbo].[Roles] (
 );
 GO
 
+-- Creating table 'Reviews'
+CREATE TABLE [dbo].[Reviews] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Title] nvarchar(max)  NOT NULL,
+    [ReviewDetails] nvarchar(max)  NOT NULL,
+    [ReviewerName] nvarchar(max)  NOT NULL,
+    [Rating] int  NOT NULL,
+    [ReviewLocation] nvarchar(max)  NOT NULL,
+    [ReviewDate] datetime  NOT NULL,
+    [MediaId] int  NOT NULL
+);
+GO
+
 -- Creating table 'UserRole'
 CREATE TABLE [dbo].[UserRole] (
     [User_Id] int  NOT NULL,
@@ -208,6 +221,12 @@ GO
 -- Creating primary key on [Id] in table 'Roles'
 ALTER TABLE [dbo].[Roles]
 ADD CONSTRAINT [PK_Roles]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'Reviews'
+ALTER TABLE [dbo].[Reviews]
+ADD CONSTRAINT [PK_Reviews]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
@@ -333,6 +352,21 @@ GO
 CREATE INDEX [IX_FK_MediaStock]
 ON [dbo].[Media]
     ([Stocks_Id]);
+GO
+
+-- Creating foreign key on [MediaId] in table 'Reviews'
+ALTER TABLE [dbo].[Reviews]
+ADD CONSTRAINT [FK_MediaReview]
+    FOREIGN KEY ([MediaId])
+    REFERENCES [dbo].[Media]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_MediaReview'
+CREATE INDEX [IX_FK_MediaReview]
+ON [dbo].[Reviews]
+    ([MediaId]);
 GO
 
 -- --------------------------------------------------
