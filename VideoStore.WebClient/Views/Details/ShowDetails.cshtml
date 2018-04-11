@@ -23,3 +23,18 @@ Reviews Count: @Model.Reviews.Count <br />
 }
 
 @Html.ActionLink("Create Review", "CreateReview", "Review", routeValues: new { mediaId = Model.Item.Id }, htmlAttributes: null)
+<br />
+
+@foreach (var review in Model.Reviews)
+{
+    <tr>
+        <td>
+            <h4>review.Title</h4>
+            review.ReviewerName | review.ReviewerLocation | review.ReviewDate
+            <br />
+            review.Rating
+            <br />
+            review.ReviewDetails
+        </td>
+    </tr>
+}

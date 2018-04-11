@@ -18,6 +18,7 @@ namespace VideoStore.Business.Entities
         {
             this.Orders = new HashSet<Order>();
             this.Roles = new HashSet<Role>();
+            this.Reviews = new HashSet<Review>();
         }
     
         public int Id { get; set; }
@@ -25,9 +26,12 @@ namespace VideoStore.Business.Entities
         public string Address { get; set; }
         public string Email { get; set; }
         public byte[] Revision { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
     
         public virtual ICollection<Order> Orders { get; set; }
         public virtual LoginCredential LoginCredential { get; set; }
         public virtual ICollection<Role> Roles { get; set; }
+        public virtual ICollection<Review> Reviews { get; set; }
     }
 }

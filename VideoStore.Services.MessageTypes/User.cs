@@ -14,7 +14,8 @@ namespace VideoStore.Services.MessageTypes
         public String Address { get; set; }
         public LoginCredential LoginCredential {get; set;}
         public byte[] Revision { get; set; }
-
+        public String City { get; set; }
+        public String Country { get; set; }
 
         public string UserName
         {

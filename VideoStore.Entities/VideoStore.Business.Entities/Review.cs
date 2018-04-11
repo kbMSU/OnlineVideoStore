@@ -29,5 +29,6 @@ namespace VideoStore.Business.Entities
         public int MediaId { get; set; }
     
         public virtual Media Media { get; set; }
+        public virtual User User { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 04/10/2018 22:46:26
+-- Date Created: 04/11/2018 22:32:15
 -- Generated from EDMX file: D:\University\Comp5348\OnlineVideoStore\VideoStore.Entities\VideoStore.Business.Entities\VideoStoreEntityModel.edmx
 -- --------------------------------------------------
 
@@ -41,6 +41,9 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_MediaStock]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[Media] DROP CONSTRAINT [FK_MediaStock];
 GO
+IF OBJECT_ID(N'[dbo].[FK_MediaReview]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Reviews] DROP CONSTRAINT [FK_MediaReview];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -70,6 +73,9 @@ GO
 IF OBJECT_ID(N'[dbo].[Roles]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Roles];
 GO
+IF OBJECT_ID(N'[dbo].[Reviews]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Reviews];
+GO
 IF OBJECT_ID(N'[dbo].[UserRole]', 'U') IS NOT NULL
     DROP TABLE [dbo].[UserRole];
 GO
@@ -85,6 +91,8 @@ CREATE TABLE [dbo].[Users] (
     [Address] nvarchar(max)  NULL,
     [Email] nvarchar(max)  NOT NULL,
     [Revision] timestamp  NOT NULL,
+    [City] nvarchar(max)  NOT NULL,
+    [Country] nvarchar(max)  NOT NULL,
     [LoginCredential_Id] int  NOT NULL
 );
 GO
@@ -141,6 +149,8 @@ CREATE TABLE [dbo].[Media] (
     [Director] nvarchar(max)  NOT NULL,
     [Genre] nvarchar(max)  NOT NULL,
     [Price] decimal(18,0)  NOT NULL,
+    [RatingCount] int  NOT NULL,
+    [RatingSum] int  NOT NULL,
     [Stocks_Id] uniqueidentifier  NOT NULL
 );
 GO
@@ -161,7 +171,8 @@ CREATE TABLE [dbo].[Reviews] (
     [Rating] int  NOT NULL,
     [ReviewLocation] nvarchar(max)  NOT NULL,
     [ReviewDate] datetime  NOT NULL,
-    [MediaId] int  NOT NULL
+    [MediaId] int  NOT NULL,
+    [User_Id] int  NOT NULL
 );
 GO
 
@@ -367,6 +378,21 @@ GO
 CREATE INDEX [IX_FK_MediaReview]
 ON [dbo].[Reviews]
     ([MediaId]);
+GO
+
+-- Creating foreign key on [User_Id] in table 'Reviews'
+ALTER TABLE [dbo].[Reviews]
+ADD CONSTRAINT [FK_ReviewUser]
+    FOREIGN KEY ([User_Id])
+    REFERENCES [dbo].[Users]
+        ([Id])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_ReviewUser'
+CREATE INDEX [IX_FK_ReviewUser]
+ON [dbo].[Reviews]
+    ([User_Id]);
 GO
 
 -- --------------------------------------------------

@@ -35,6 +35,14 @@ namespace VideoStore.WebClient.ViewModels
         [Display(Name = "Postal Address")]
         public string Address { get; set; }
 
+        [DataType(DataType.Text)]
+        [Display(Name = "City")]
+        public string City { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Country")]
+        public string Country { get; set; }
+
         public User ToMessageType()
         {
             User user = new User()
@@ -45,7 +53,9 @@ namespace VideoStore.WebClient.ViewModels
                 {
                     UserName = this.UserName
                 },
-                Address = this.Address
+                Address = this.Address,
+                City = this.City,
+                Country = this.Country
             };
             return user;
         }

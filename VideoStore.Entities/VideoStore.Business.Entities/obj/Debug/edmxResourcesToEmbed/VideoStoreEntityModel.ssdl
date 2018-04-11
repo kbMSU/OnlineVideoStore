@@ -47,6 +47,10 @@
       <End Role="Media" EntitySet="Media" />
       <End Role="Review" EntitySet="Reviews" />
     </AssociationSet>
+    <AssociationSet Name="ReviewUser" Association="VideoStoreEntityModel.Store.ReviewUser">
+      <End Role="Review" EntitySet="Reviews" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="Users">
     <Key>
@@ -57,6 +61,8 @@
     <Property Name="Address" Type="nvarchar(max)" Nullable="true" />
     <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Revision" Type="varbinary(max)" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="City" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Country" Type="nvarchar(max)" Nullable="false" />
     <Property Name="LoginCredential_Id" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Deliveries">
@@ -113,6 +119,8 @@
     <Property Name="Director" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Genre" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Price" Type="decimal" Nullable="false" />
+    <Property Name="RatingCount" Type="int" Nullable="false" />
+    <Property Name="RatingSum" Type="int" Nullable="false" />
     <Property Name="Stocks_Id" Type="uniqueidentifier" Nullable="false" />
   </EntityType>
   <EntityType Name="Roles">
@@ -134,6 +142,7 @@
     <Property Name="ReviewLocation" Type="nvarchar(max)" Nullable="false" />
     <Property Name="ReviewDate" Type="datetime" Nullable="false" />
     <Property Name="MediaId" Type="int" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="UserRole">
     <Key>
@@ -224,6 +233,18 @@
       </Principal>
       <Dependent Role="Review">
         <PropertyRef Name="MediaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ReviewUser">
+    <End Role="Review" Type="VideoStoreEntityModel.Store.Reviews" Multiplicity="*" />
+    <End Role="User" Type="VideoStoreEntityModel.Store.Users" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Review">
+        <PropertyRef Name="User_Id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

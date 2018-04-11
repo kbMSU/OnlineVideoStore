@@ -42,6 +42,10 @@
       <End Role="Media" EntitySet="Media" />
       <End Role="Review" EntitySet="Reviews" />
     </AssociationSet>
+    <AssociationSet Name="ReviewUser" Association="VideoStoreEntityModel.ReviewUser">
+      <End Role="Review" EntitySet="Reviews" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="User">
     <Key>
@@ -55,6 +59,9 @@
     <Property Type="String" Name="Email" Nullable="false" ConcurrencyMode="None" />
     <Property Type="Binary" Name="Revision" Nullable="false" ConcurrencyMode="Fixed" annotation:StoreGeneratedPattern="Computed" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
     <NavigationProperty Name="Roles" Relationship="VideoStoreEntityModel.UserRole" FromRole="User" ToRole="Role" />
+    <NavigationProperty Name="Reviews" Relationship="VideoStoreEntityModel.ReviewUser" FromRole="User" ToRole="Review" />
+    <Property Name="City" Type="String" Nullable="false" />
+    <Property Name="Country" Type="String" Nullable="false" />
   </EntityType>
   <EntityType Name="Delivery">
     <Key>
@@ -129,6 +136,8 @@
     <Property Type="Decimal" Name="Price" Nullable="false" />
     <NavigationProperty Name="Stocks" Relationship="VideoStoreEntityModel.MediaStock" FromRole="Media" ToRole="Stock" />
     <NavigationProperty Name="Reviews" Relationship="VideoStoreEntityModel.MediaReview" FromRole="Media" ToRole="Review" />
+    <Property Name="RatingCount" Type="Int32" Nullable="false" />
+    <Property Name="RatingSum" Type="Int32" Nullable="false" />
   </EntityType>
   <Association Name="OrderItemMedia">
     <End Type="VideoStoreEntityModel.OrderItem" Role="OrderItem" Multiplicity="*" />
@@ -163,6 +172,7 @@
     <Property Name="ReviewDate" Type="DateTime" Nullable="false" />
     <NavigationProperty Name="Media" Relationship="VideoStoreEntityModel.MediaReview" FromRole="Review" ToRole="Media" />
     <Property Name="MediaId" Type="Int32" Nullable="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <NavigationProperty Name="User" Relationship="VideoStoreEntityModel.ReviewUser" FromRole="Review" ToRole="User" />
   </EntityType>
   <Association Name="MediaReview">
     <End Type="VideoStoreEntityModel.Media" Role="Media" Multiplicity="1" />
@@ -175,5 +185,9 @@
         <PropertyRef Name="MediaId" />
       </Dependent>
     </ReferentialConstraint>
+  </Association>
+  <Association Name="ReviewUser">
+    <End Type="VideoStoreEntityModel.Review" Role="Review" Multiplicity="*" />
+    <End Type="VideoStoreEntityModel.User" Role="User" Multiplicity="1" />
   </Association>
 </Schema>

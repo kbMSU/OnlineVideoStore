@@ -9,6 +9,8 @@
           <ScalarProperty Name="Address" ColumnName="Address" />
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Revision" ColumnName="Revision" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -66,6 +68,8 @@
           <ScalarProperty Name="Director" ColumnName="Director" />
           <ScalarProperty Name="Genre" ColumnName="Genre" />
           <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="RatingCount" ColumnName="RatingCount" />
+          <ScalarProperty Name="RatingSum" ColumnName="RatingSum" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -145,6 +149,14 @@
         <ScalarProperty Name="Id" ColumnName="Stocks_Id" />
       </EndProperty>
       <EndProperty Name="Media">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ReviewUser" TypeName="VideoStoreEntityModel.ReviewUser" StoreEntitySet="Reviews">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="Review">
         <ScalarProperty Name="Id" ColumnName="Id" />
       </EndProperty>
     </AssociationSetMapping>

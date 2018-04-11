@@ -24,6 +24,8 @@ namespace VideoStore.Business.Entities
         public string Director { get; set; }
         public string Genre { get; set; }
         public decimal Price { get; set; }
+        public int RatingCount { get; set; }
+        public int RatingSum { get; set; }
     
         public virtual Stock Stocks { get; set; }
         public virtual ICollection<Review> Reviews { get; set; }
