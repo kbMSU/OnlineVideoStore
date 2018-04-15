@@ -19,15 +19,21 @@ namespace VideoStore.Business.Components
             }
         }
 
-        public void SubmitReview(Review pReview)
+        public void SubmitReview(Review pReview, Media pMedia, User pUser)
         {
             using (TransactionScope lScope = new TransactionScope())
             using (VideoStoreEntityModelContainer lContainer = new VideoStoreEntityModelContainer())
             {
-                //lContainer.Users.Attach(pReview.User);
-                //lContainer.Media.Attach(pReview.Media);
-                lContainer.Reviews.Add(pReview);
+                // Update the media rating
+                lContainer.Media.First(m => m.Id == pMedia.Id).RatingCount = pMedia.RatingCount;
+                lContainer.Media.First(m => m.Id == pMedia.Id).RatingSum = pMedia.RatingSum;
 
+                // Add the review to the reviews list
+                pReview.User = pUser;
+                pReview.Media = lContainer.Media.First(m => m.Id == pMedia.Id);
+                lContainer.Reviews.Add(pReview);      
+
+                // Commit changes
                 lContainer.SaveChanges();
                 lScope.Complete();
             }

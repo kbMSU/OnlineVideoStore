@@ -30,12 +30,13 @@ Reviews Count: @Model.Reviews.Count <br />
 {
     <tr>
         <td>
-            <h4>review.Title</h4>
-            review.ReviewerName | review.ReviewerLocation | review.ReviewDate
+            <h4>@review.Title</h4>
+            @review.ReviewerName | @review.ReviewLocation | @review.ReviewDate
             <br />
-            review.Rating
+            Rating: @review.Rating
             <br />
-            review.ReviewDetails
+            @review.ReviewDetails
         </td>
     </tr>
+    <br />
 }

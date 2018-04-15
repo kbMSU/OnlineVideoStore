@@ -434,4 +434,3 @@ D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\obj\x86\Debug\VideoSt
 D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\obj\x86\Debug\VideoStore.Process.csproj.CopyComplete
 D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\obj\x86\Debug\VideoStore.Process.exe
 D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\obj\x86\Debug\VideoStore.Process.pdb
-D:\University\Comp5348\OnlineVideoStore\VideoStore.Process\bin\Debug\AutoMapper.Net4.dll

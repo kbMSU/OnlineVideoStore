@@ -33,10 +33,10 @@ namespace VideoStore.WebClient.Controllers
             var vm = new CreateReviewViewModel();
             vm.mediaId = mediaId;
             vm.Item = CatalogueService.GetMediaById(mediaId);
-            /*User currentUser = UserService.GetUserByUserName(HttpContext.User.Identity.Name);
+            User currentUser = UserService.GetUserByUserName(HttpContext.User.Identity.Name);
             vm.ReviewerName = currentUser.Name;
             vm.ReviewerLocation = currentUser.City + ", " + currentUser.Country;
-            vm.AuthorId = currentUser.Id;*/
+            vm.ReviewDate = DateTime.Now;
 
             return View(vm);
         }
@@ -45,22 +45,23 @@ namespace VideoStore.WebClient.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult CreateReview(CreateReviewViewModel vm, int pMediaId)
         {
-            /*if(ModelState.IsValid)
-            {
-                //ServiceFactory.Instance.ReviewService.SubmitReview(pModel.toMessageType()); 
-            }*/
-
             vm.mediaId = pMediaId;
-            vm.Item = CatalogueService.GetMediaById(pMediaId);
+            Media media = CatalogueService.GetMediaById(pMediaId);
+            vm.Item = media;
             User currentUser = UserService.GetUserByUserName(HttpContext.User.Identity.Name);
-            vm.ReviewerName = currentUser.Name;
-            vm.ReviewerLocation = currentUser.City + ", " + currentUser.Country;
             vm.AuthorId = currentUser.Id;
 
-            var ReviewMessage = vm.toMessageType();
+            // Get the Review Message Type
+            var reviewMessage = vm.toMessageType();
 
-            //return View(new MediaDetailsViewModel(vm.Item.Id));
+            // Update the rating sum and count on the media
+            media.RatingCount++;
+            media.RatingSum += vm.Rating;
 
+            // Save the review to the database
+            ServiceFactory.Instance.ReviewService.SubmitReview(reviewMessage, media, currentUser);
+
+            // Go back to the media details page
             return RedirectToAction("ShowDetails", "Details", routeValues: new { mediaId = pMediaId });
         }
     }

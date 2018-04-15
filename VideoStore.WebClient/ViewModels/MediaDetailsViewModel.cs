@@ -31,7 +31,7 @@ namespace VideoStore.WebClient.ViewModels
             Reviews = ReviewService.GetReviewsForMediaId(mediaId);
             if(Item.RatingCount > 0)
             {
-                AverageRating = Item.RatingSum / Item.RatingCount;
+                AverageRating = (float)Item.RatingSum / Item.RatingCount;
             }
         }
 

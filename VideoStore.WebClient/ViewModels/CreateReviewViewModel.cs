@@ -10,22 +10,6 @@ namespace VideoStore.WebClient.ViewModels
 {
     public class CreateReviewViewModel
     {
-        private ICatalogueService CatalogueService
-        {
-            get
-            {
-                return ServiceFactory.Instance.CatalogueService;
-            }
-        }
-
-        private IUserService UserService
-        {
-            get
-            {
-                return ServiceFactory.Instance.UserService;
-            }
-        }
-
         [Required]
         [DataType(DataType.Text)]
         [Display(Name = "Title")]
@@ -40,32 +24,35 @@ namespace VideoStore.WebClient.ViewModels
         [Display(Name = "Rating")]
         public int Rating { get; set; }
 
+        public IEnumerable<int> RatingOptions = new List<int> { 1, 2, 3, 4, 5 };
+
         public Media Item { get; set; }
 
         public int mediaId { get; set; }
 
+        [Required]
+        [DataType(DataType.Text)]
+        [Display(Name = "Reviewer (You)")]
         public string ReviewerName { get; set; }
 
+        [Required]
+        [DataType(DataType.Text)]
+        [Display(Name = "Review Location")]
         public string ReviewerLocation { get; set; }
 
-        public int AuthorId { get; set; }
+        [Required]
+        [DataType(DataType.DateTime)]
+        [Display(Name = "Date and time of Review")]
+        public DateTime ReviewDate { get; set; }
 
-        /*public CreateReviewViewModel(int mediaId)
-        {
-            this.mediaId = mediaId;
-            Item = CatalogueService.GetMediaById(mediaId);
-            User currentUser = UserService.GetUserByUserName(HttpContext.Current.User.Identity.Name);
-            ReviewerName = currentUser.Name;
-            ReviewerLocation = currentUser.City + ", " + currentUser.Country;
-            AuthorId = currentUser.Id;
-        }*/
+        public int AuthorId { get; set; }
 
         public Review toMessageType()
         {
             Review review = new Review()
             {
                 Title = this.Title,
-                ReviewDate = DateTime.Now,
+                ReviewDate = this.ReviewDate,
                 ReviewerName = this.ReviewerName,
                 ReviewLocation = this.ReviewerLocation,
                 AuthorId = this.AuthorId,

@@ -28,12 +28,18 @@ namespace VideoStore.Services
             return externalResult;
         }
 
-        public void SubmitReview(Review pReview)
+        public void SubmitReview(Review pReview, Media pMedia, User pUser)
         {
             ReviewProvider.SubmitReview(
                 MessageTypeConverter.Instance.Convert<
                 VideoStore.Services.MessageTypes.Review,
-                VideoStore.Business.Entities.Review>(pReview)
+                VideoStore.Business.Entities.Review>(pReview),
+                MessageTypeConverter.Instance.Convert<
+                VideoStore.Services.MessageTypes.Media,
+                VideoStore.Business.Entities.Media>(pMedia),
+                MessageTypeConverter.Instance.Convert<
+                VideoStore.Services.MessageTypes.User,
+                VideoStore.Business.Entities.User>(pUser)
             );
         }
     }
