@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 04/11/2018 22:32:15
+-- Date Created: 04/12/2018 13:30:36
 -- Generated from EDMX file: D:\University\Comp5348\OnlineVideoStore\VideoStore.Entities\VideoStore.Business.Entities\VideoStoreEntityModel.edmx
 -- --------------------------------------------------
 
@@ -43,6 +43,9 @@ IF OBJECT_ID(N'[dbo].[FK_MediaStock]', 'F') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[FK_MediaReview]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[Reviews] DROP CONSTRAINT [FK_MediaReview];
+GO
+IF OBJECT_ID(N'[dbo].[FK_ReviewUser]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Reviews] DROP CONSTRAINT [FK_ReviewUser];
 GO
 
 -- --------------------------------------------------
@@ -172,6 +175,7 @@ CREATE TABLE [dbo].[Reviews] (
     [ReviewLocation] nvarchar(max)  NOT NULL,
     [ReviewDate] datetime  NOT NULL,
     [MediaId] int  NOT NULL,
+    [AuthorId] int  NOT NULL,
     [User_Id] int  NOT NULL
 );
 GO

@@ -10,5 +10,6 @@ namespace VideoStore.Business.Components.Interfaces
     public interface IReviewProvider
     {
         List<Review> GetReviewsForMediaId(int mediaId);
+        void SubmitReview(Review pReview);
     }
 }

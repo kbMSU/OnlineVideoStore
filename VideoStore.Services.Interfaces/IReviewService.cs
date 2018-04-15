@@ -13,5 +13,8 @@ namespace VideoStore.Services.Interfaces
     {
         [OperationContract]
         List<Review> GetReviewsForMediaId(int mediaId);
+
+        [OperationContract]
+        void SubmitReview(Review pReview);
     }
 }

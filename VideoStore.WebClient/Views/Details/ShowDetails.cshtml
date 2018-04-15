@@ -11,18 +11,19 @@ Director: @Model.Item.Director <br />
 Genre: @Model.Item.Genre <br />
 Price: @Model.Item.Price$ <br />
 Amount in Stock: @Model.Item.StockCount <br />
+Average Rating: @Model.AverageRating <br />
 
 <hr />
 
 <h3>Customer Reviews</h3>
 
 Reviews Count: @Model.Reviews.Count <br />
-@if (Model.Reviews.Count == 0)
+@if (Model.Item.RatingCount == 0)
 {
     <p>There are no reviews yet for this item. Be the first to create one !</p>
 }
 
-@Html.ActionLink("Create Review", "CreateReview", "Review", routeValues: new { mediaId = Model.Item.Id }, htmlAttributes: null)
+@Html.ActionLink("Create Review", "CreateReview", "CreateReview", routeValues: new { mediaId = Model.Item.Id }, htmlAttributes: null)
 <br />
 
 @foreach (var review in Model.Reviews)

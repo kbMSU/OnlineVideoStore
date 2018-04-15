@@ -147,6 +147,7 @@
     <Property Name="ReviewLocation" Type="nvarchar(max)" Nullable="false" />
     <Property Name="ReviewDate" Type="datetime" Nullable="false" />
     <Property Name="MediaId" Type="int" Nullable="false" />
+    <Property Name="AuthorId" Type="int" Nullable="false" />
     <Property Name="User_Id" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="UserRole">
@@ -454,6 +455,7 @@
           <NavigationProperty Name="Media" Relationship="VideoStoreEntityModel.MediaReview" FromRole="Review" ToRole="Media" />
           <Property Name="MediaId" Type="Int32" Nullable="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <NavigationProperty Name="User" Relationship="VideoStoreEntityModel.ReviewUser" FromRole="Review" ToRole="User" />
+          <Property Name="AuthorId" Type="Int32" Nullable="false" />
         </EntityType>
         <Association Name="MediaReview">
           <End Type="VideoStoreEntityModel.Media" Role="Media" Multiplicity="1" />
@@ -568,6 +570,7 @@
           <ScalarProperty Name="ReviewLocation" ColumnName="ReviewLocation" />
           <ScalarProperty Name="ReviewDate" ColumnName="ReviewDate" />
           <ScalarProperty Name="MediaId" ColumnName="MediaId" />
+          <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

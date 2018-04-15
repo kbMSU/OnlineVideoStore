@@ -27,6 +27,7 @@ namespace VideoStore.Business.Entities
         public string ReviewLocation { get; set; }
         public System.DateTime ReviewDate { get; set; }
         public int MediaId { get; set; }
+        public int AuthorId { get; set; }
     
         public virtual Media Media { get; set; }
         public virtual User User { get; set; }

@@ -27,5 +27,14 @@ namespace VideoStore.Services
                 List<VideoStore.Services.MessageTypes.Review>>(internalResult);
             return externalResult;
         }
+
+        public void SubmitReview(Review pReview)
+        {
+            ReviewProvider.SubmitReview(
+                MessageTypeConverter.Instance.Convert<
+                VideoStore.Services.MessageTypes.Review,
+                VideoStore.Business.Entities.Review>(pReview)
+            );
+        }
     }
 }

@@ -92,6 +92,7 @@
           <ScalarProperty Name="ReviewLocation" ColumnName="ReviewLocation" />
           <ScalarProperty Name="ReviewDate" ColumnName="ReviewDate" />
           <ScalarProperty Name="MediaId" ColumnName="MediaId" />
+          <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -173,6 +173,7 @@
     <NavigationProperty Name="Media" Relationship="VideoStoreEntityModel.MediaReview" FromRole="Review" ToRole="Media" />
     <Property Name="MediaId" Type="Int32" Nullable="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
     <NavigationProperty Name="User" Relationship="VideoStoreEntityModel.ReviewUser" FromRole="Review" ToRole="User" />
+    <Property Name="AuthorId" Type="Int32" Nullable="false" />
   </EntityType>
   <Association Name="MediaReview">
     <End Type="VideoStoreEntityModel.Media" Role="Media" Multiplicity="1" />

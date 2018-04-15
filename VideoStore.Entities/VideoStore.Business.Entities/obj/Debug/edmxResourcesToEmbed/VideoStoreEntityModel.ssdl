@@ -142,6 +142,7 @@
     <Property Name="ReviewLocation" Type="nvarchar(max)" Nullable="false" />
     <Property Name="ReviewDate" Type="datetime" Nullable="false" />
     <Property Name="MediaId" Type="int" Nullable="false" />
+    <Property Name="AuthorId" Type="int" Nullable="false" />
     <Property Name="User_Id" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="UserRole">

@@ -10,9 +10,11 @@ namespace VideoStore.Services.MessageTypes
     {
         public string Title { get; set; }
         public string ReviewerName { get; set; }
-        public string ReviewerLocation { get; set; }
+        public string ReviewLocation { get; set; }
         public string ReviewDetails { get; set; }
         public int Rating { get; set; }
         public DateTime ReviewDate { get; set; }
+        public int AuthorId { get; set; }
+        public int MediaId { get; set; }
     }
 }

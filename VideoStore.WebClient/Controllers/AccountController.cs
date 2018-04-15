@@ -69,7 +69,6 @@ namespace VideoStore.WebClient.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
-
             if (!ModelState.IsValid)
             {
                 return View(model);

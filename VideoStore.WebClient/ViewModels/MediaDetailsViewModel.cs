@@ -29,6 +29,10 @@ namespace VideoStore.WebClient.ViewModels
         {
             Item = CatalogueService.GetMediaById(mediaId);
             Reviews = ReviewService.GetReviewsForMediaId(mediaId);
+            if(Item.RatingCount > 0)
+            {
+                AverageRating = Item.RatingSum / Item.RatingCount;
+            }
         }
 
         public Media Item;
