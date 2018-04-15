@@ -1,4 +1,3 @@
-# OnlineVideoStore
 Name: Karthikeyan Balasubramanian
 Student ID: 460123835
 
@@ -39,4 +38,3 @@ c) Run the VideoStore.Process project
 d) Run the VideoStore.WebClient project.
 
 The website will now be open on the default browser for you to use !
-
